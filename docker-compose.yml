@@ -39,7 +39,7 @@ services:
     networks:
       - django-network
     depends_on:
-      - postgres-django
+      - postgres_concert
   
 networks:
   django-network:
